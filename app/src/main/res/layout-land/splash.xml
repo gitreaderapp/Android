@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/bg_land"
+    android:gravity="center"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/login_logo_land"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ProgressBar
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:theme="@style/LinearProgress"
+        android:indeterminate="false"
+        android:max="100"
+        android:progressDrawable="@drawable/progressbar"
+        android:progress="1"
+        android:layout_marginTop="30dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:id="@+id/progressBar" />
+    <TextView
+        android:id="@+id/txt"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="LOADING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:text="Please wait..."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
